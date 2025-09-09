@@ -1,0 +1,56 @@
+/* ;tag de comentário */
+/* podemos selecionar uma tag pelo id (indentificador único ou pela classe.) */
+body{
+    background-color: rgb(255, 255, 255);
+    /* insere uma imagem no fundo do site */
+    background-image:url(https://i.pinimg.com/736x/5d/d1/66/5dd16647809ecaf143af32479869b47e.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    color: rgb(255, 249, 255);
+}
+/* sempre que chamamos uma tag pelo id, selecionamos o sinal de "#" no inicio */
+#lucas{
+    color: rgb(247, 240, 242);
+}
+/* sempre que chamamos uma tag pela classe, adicionamos um sinal de "." no inicio */
+.título{
+    /* adicione o sublinhado ao texto */
+    text-decoration: underline;
+    /* altera o tamanho da fonte, medidas em (px,rem) */
+    font-size: 16px;
+    /* selecione a familia de fonte */
+font-family: Arial, Helvetica, sans-serif;
+/* altera o nivel de negrito da fonte */
+font-weight: 400;
+
+}
+img{
+    /* altera a altura da imagem */
+    height: 400px;
+    /* altera a largura da imagem */
+    width: 400px;
+}
+
+ul{
+    /* altera o estilo da lista */
+    list-style: none;
+    display: flex;
+    li{
+    /* criar um espaçamento interno */
+    padding: 10px;
+    /* altera o arredondamento dos itens */
+    border-radius: 10px;
+    /* altera a cor de fundo */
+    background-color: aliceblue;
+    /* cria um espaçamento entre os itens */
+    gap: 10px;
+        /* altera a cor da fonte */
+        a{
+            color: aliceblue;
+            text-decoration: none;
+        }
+    }
+}
